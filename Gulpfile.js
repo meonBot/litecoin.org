@@ -1,17 +1,15 @@
 'use strict';
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var concat = require('gulp-concat');
-var autoprefixer = require('gulp-autoprefixer');
-var cleanCSS = require('gulp-clean-css');
+const gulp = require('gulp');
+const sass = require('gulp-sass')(require('sass'));
+const concat = require('gulp-concat');
+const autoprefixer = require('gulp-autoprefixer');
+const cleanCSS = require('gulp-clean-css');
+
 
 gulp.task('sass', function () {
   return gulp.src('./themes/hugo-litecoin-theme/static/sass/**/*.sass')
     .pipe(sass().on('error', sass.logError))
-    .pipe(autoprefixer({
-        browsers: ['> 5%']
-    }))
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(gulp.dest('./themes/hugo-litecoin-theme/static/css'));
 });

@@ -92,4 +92,4 @@
   # Footer section
   [Languages.no.footer]
     enable = true
-    copyright = 'Opphavsrett &copy; 2011-2020 Litecoin Prosjekt. Alle rettigheter reservert.'
+    copyright = 'Opphavsrett &copy; 2011-2022 Litecoin Prosjekt. Alle rettigheter reservert.'

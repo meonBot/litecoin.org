@@ -92,4 +92,4 @@
   # Footer section
   [Languages.sl.footer]
     enable = true
-    copyright = 'Avtorske pravice &copy; 2011-2020 Litecoin Project. Vse pravice pridržane.'
+    copyright = 'Avtorske pravice &copy; 2011-2022 Litecoin Project. Vse pravice pridržane.'

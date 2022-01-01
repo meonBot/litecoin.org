@@ -1,12 +1,12 @@
 id: linux
-version: Litecoin Core 0.18.1
+version: Litecoin Core 0.21.1rc1
 
 img: linux
 isCompiled: 1
 isLinux: 1
 
-uri: https://download.litecoin.org/litecoin-0.18.1/linux/litecoin-0.18.1-x86_64-linux-gnu.tar.gz
+uri: https://download.litecoin.org/litecoin-0.21.1rc1/linux/litecoin-0.21.1rc1-x86_64-linux-gnu.tar.gz
 
-gpg: https://download.litecoin.org/litecoin-0.18.1/linux/litecoin-0.18.1-linux-signatures.asc
-bit32: https://download.litecoin.org/litecoin-0.18.1/linux/litecoin-0.18.1-i686-pc-linux-gnu.tar.gz
-bit64: https://download.litecoin.org/litecoin-0.18.1/linux/litecoin-0.18.1-x86_64-linux-gnu.tar.gz
+gpg: https://download.litecoin.org/litecoin-0.21.1rc1/linux/litecoin-0.21.1rc1-linux-signatures.asc
+bit32: https://download.litecoin.org/litecoin-0.21.1rc1/linux/litecoin-0.21.1rc1-i686-pc-linux-gnu.tar.gz
+bit64: https://download.litecoin.org/litecoin-0.21.1rc1/linux/litecoin-0.21.1rc1-x86_64-linux-gnu.tar.gz

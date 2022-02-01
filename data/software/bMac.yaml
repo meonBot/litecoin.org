@@ -1,10 +1,10 @@
 id: mac
-version: Litecoin Core 0.21.1rc1
+version: Litecoin Core 0.21.2rc1
 
 img: apple
 isCompiled: 1
 isMac: 1
 
-uri: https://download.litecoin.org/litecoin-0.21.1rc1/osx/litecoin-0.21.1rc1-osx.dmg
+uri: https://download.litecoin.org/litecoin-0.21.2rc1/osx/litecoin-0.21.2rc1-osx.dmg
 
-gpg: https://download.litecoin.org/litecoin-0.21.1rc1/osx/litecoin-0.21.1rc1-osx.dmg.asc
+gpg: https://download.litecoin.org/litecoin-0.21.2rc1/osx/litecoin-0.21.2rc1-osx.dmg.asc

@@ -1,9 +1,8 @@
 # Site settings
-baseurl = "https://litecoin.org/"
+baseurl = "https://dev.litecoin.org/"
 
 
 theme = "hugo-litecoin-theme"
-googleAnalytics = ""
 ignoreFiles = [ "\\.scss$", "\\.sass$" ]
 
 # Link custom assets relative to /static
@@ -26,7 +25,7 @@ hrefTargetBlank = true
 description = "Litecoin is a cryptocurrency that enables instant payments to anyone in the world and that can be efficiently mined with consumer-grade hardware."
 
   [params.downloadCommon]
-    releaseNotesURL = "https://blog.litecoin.org/litecoin-core-v0-15-1-45ee1c5003cb"
+    releaseNotesURL = "https://blog.litecoin.org/"
     upgradeNotesURL = "https://litecoin.info/index.php/Upgrading_Litecoin"
 
   [params.footerCommon]

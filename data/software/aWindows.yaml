@@ -1,13 +1,11 @@
 id: win
-version: Litecoin Core 0.21.2rc5
+version: Litecoin Core 0.21.2rc6
 
 img: windows
 isCompiled: 1
 isWallet: 1
 isWindows: 1
 
-
-uri: https://download.litecoin.org/litecoin-0.21.2rc5/win/litecoin-0.21.2rc5-win64-setup.exe
-gpg: https://download.litecoin.org/litecoin-0.21.2rc5/win/litecoin-0.21.2rc5-win-signatures.asc
-bit32: https://download.litecoin.org/litecoin-0.21.2rc5/win/litecoin-0.21.2rc5-win32-setup.exe
-bit64: https://download.litecoin.org/litecoin-0.21.2rc5/win/litecoin-0.21.2rc5-win64-setup.exe
+uri: https://download.litecoin.org/litecoin-0.21.2rc6/win/litecoin-0.21.2rc6-win64-setup.exe
+gpg: https://download.litecoin.org/litecoin-0.21.2rc6/win/litecoin-0.21.2rc6-win-signatures.asc
+bit64: https://download.litecoin.org/litecoin-0.21.2rc6/win/litecoin-0.21.2rc6-win64-setup.exe

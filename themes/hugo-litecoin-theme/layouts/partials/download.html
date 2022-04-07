@@ -26,8 +26,10 @@
             </a>
             <div>
               {{ with .gpg }}<a href="{{ . }}">{{ $.Site.Params.download.gpg }}</a>{{ end }}
-              {{ with .bit32 }} | <a href="{{ . }}">32bit</a> | {{ end }}
-              {{ with .bit64 }}<a href="{{ . }}">64bit</a>{{ end }}
+              {{ with .arm }} | <a href="{{ . }}">arm</a> | {{ end }}
+              {{ with .aarch64 }} | <a href="{{ . }}">aarch64</a> | {{ end }}
+              {{ with .bit64 }}<a href="{{ . }}">x86</a>{{ end }}
+              {{ with .riscv }}<a href="{{ . }}">riscv</a>{{ end }}
               {{ with .gpgPublicKey }}<a href="{{ . }}">GPG Public Key</a>{{ end }}
               &nbsp;
             </div>

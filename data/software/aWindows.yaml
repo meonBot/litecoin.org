@@ -8,4 +8,3 @@ isWindows: 1
 
 uri: https://download.litecoin.org/litecoin-0.21.2rc6/win/litecoin-0.21.2rc6-win64-setup.exe
 gpg: https://download.litecoin.org/litecoin-0.21.2rc6/win/litecoin-0.21.2rc6-win-signatures.asc
-bit64: https://download.litecoin.org/litecoin-0.21.2rc6/win/litecoin-0.21.2rc6-win64-setup.exe

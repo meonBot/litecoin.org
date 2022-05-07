@@ -27,7 +27,7 @@
       weight = 10
 
     [[Languages.ko.menu.postpend]]
-      url = "https://litecoin-foundation.org/shop"
+      url = "https://litecoin.net"
       name = "기초"
       weight = 10
 

@@ -7,4 +7,4 @@ isWallet: 1
 isWindows: 1
 
 uri: https://download.litecoin.org/litecoin-0.21.2/win/litecoin-0.21.2-win64-setup.exe
-gpg: https://download.litecoin.org/litecoin-0.21.2/win/litecoin-0.21.2-win-signatures.asc
+gpg: https://download.litecoin.org/litecoin-0.21.2/win/litecoin-0.21.2-win64-setup.exe.asc

@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://dev.litecoin.org/"
+baseurl = "https://litecoin.org/"
 
 
 theme = "hugo-litecoin-theme"

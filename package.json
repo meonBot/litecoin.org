@@ -6,7 +6,7 @@
   "scripts": {
     "start": "gulp config && gulp sass && gulp sass:watch",
     "build": "hugo -D",
-    "compile": "cd config_partials && cat *.toml >> ../config.toml",
+    "compile": "rm config.toml && cd config_partials && cat *.toml >> ../config.toml",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

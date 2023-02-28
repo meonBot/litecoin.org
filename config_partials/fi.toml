@@ -93,4 +93,4 @@
   # Footer section
   [Languages.fi.footer]
     enable = true
-    copyright = "Copyright &copy; 2011-2022 Litecoin Project. All rights reserved."
+    copyright = "Copyright &copy; 2011-2023 Litecoin Project. All rights reserved."

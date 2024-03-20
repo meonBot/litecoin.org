@@ -6,6 +6,6 @@ img: github-alt
 uri: https://github.com/litecoin-project/litecoin
 isCompiled: 0
 
-android: https://lite-wallet.org
+android: https://litewallet.io
 
-gpgPublicKey: https://pgp.mit.edu/pks/lookup?op=get&search=0x3620E9D387E55666
+gpgPublicKey: https://keys.openpgp.org/vks/v1/by-fingerprint/D35621D53A1CC6A3456758D03620E9D387E55666

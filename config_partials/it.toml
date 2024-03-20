@@ -89,6 +89,7 @@
     enable = true
     title = "Contattaci"
     subtitle  = "Potete contattare il team degli sviluppatori di Litecoin all'indirizzo di posta elettronica <a href=\"mailto:contact@litecoin.org\">contact@litecoin.org</a>."
+    subscription = 'Join the Litecoin Foundation monthly newsletter today. Get updates on development, announcements and exclusive Litecoin news. <br /> Enter your email address into the form below.'
 
   # Footer section
   [Languages.it.footer]

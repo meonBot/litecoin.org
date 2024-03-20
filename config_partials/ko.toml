@@ -89,6 +89,7 @@
     enable = true
     title = "문의처"
     subtitle  = '라이트코인 프로젝트 개발팀과 연락 할 수 있는 이메일 주소 입니다. <a href="mailto:contact@litecoin.org">contact@litecoin.org</a>'
+    subscription = 'Join the Litecoin Foundation monthly newsletter today. Get updates on development, announcements and exclusive Litecoin news. <br /> Enter your email address into the form below.'
 
   # Footer section
   [Languages.ko.footer]

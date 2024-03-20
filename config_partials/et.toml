@@ -89,6 +89,7 @@
     enable = true
     # title = "Contact us"
     subtitle  = "Litecoin projekti liikmetega kontakteerumiseks kasuta <a href=\"mailto:contact@litecoin.org\">contact@litecoin.org</a>"
+    subscription = 'Join the Litecoin Foundation monthly newsletter today. Get updates on development, announcements and exclusive Litecoin news. <br /> Enter your email address into the form below.'
 
   # Footer section
   [Languages.et.footer]

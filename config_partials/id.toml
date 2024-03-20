@@ -46,7 +46,7 @@
       [[Languages.id.about.row.list]]
         icon = "fa-laptop"
         title = "Sumber"
-        description = 'Temukan informasi umum serta daftar layanan dan exchange yang mendukung Litecoin di <a href="http://litecoin.info">Litecoin Wiki</a>. <br> Statistik jaringan terkini dapat ditemukan di <a href="https://chainz.cryptoid.info/ltc/">Grafik Penjelajah Blok Litecoin</a>. <br> Kode sumber untuk Litecoin Core dan proyek yang terkait ada di <a href="https://github.com/litecoin-project">GitHub</a>.'
+        description = 'Temukan informasi umum serta daftar layanan dan exchange yang mendukung Litecoin di <a href="http://litecoin.info">Litecoin Wiki</a>. <br> Statistik jaringan terkini dapat ditemukan di <a href="https://litecoinspace.org/">Grafik Penjelajah Blok Litecoin</a>. <br> Kode sumber untuk Litecoin Core dan proyek yang terkait ada di <a href="https://github.com/litecoin-project">GitHub</a>.'
 
       [[Languages.id.about.row.list]]
         icon = "fa-heart"

@@ -46,7 +46,7 @@
       [[Languages.sv.about.row.list]]
         icon = "fa-laptop"
         title = "Resurser"
-        description = 'Hitta allmän information samt en lista över tjänster och börser som stödjer Litecoin på <a href="http://litecoin.info">Litecoin Wiki</a>. <br> Up-to-date nätverksstatistik finns på <a href="https://chainz.cryptoid.info/ltc/"> Litecoin Block Explorer Charts</a>. <br> Källkod för Litecoin Core och relaterade projekt finns på <a href="https://github.com/litecoin-project"> GitHub </a>.'
+        description = 'Hitta allmän information samt en lista över tjänster och börser som stödjer Litecoin på <a href="http://litecoin.info">Litecoin Wiki</a>. <br> Up-to-date nätverksstatistik finns på <a href="https://litecoinspace.org/"> Litecoin Block Explorer Charts</a>. <br> Källkod för Litecoin Core och relaterade projekt finns på <a href="https://github.com/litecoin-project"> GitHub </a>.'
 
       [[Languages.sv.about.row.list]]
         icon = "fa-heart"

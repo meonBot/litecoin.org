@@ -9,10 +9,17 @@
       </div>
 
       <!-- Litecoin Newsletter Subscription -->
+      <script src='https://www.google.com/recaptcha/api.js'></script>
       <div class=" text-center">
         <form action="https://mail.litecoin.net/subscribe" method="post" class="form">
             <input maxlength="256" name="email" data-name="email" placeholder="you@youremail.com" type="email" required="">
             <input type="submit" data-wait="..." value="→">
+
+            <div class="lfrecaptcha">
+                <p class="g-recaptcha" data-sitekey="6LcuJKApAAAAAO6OMvzcMOuw_AuT2JfJcN7co-0a"></p><div style="display:none;">
+                <label for="hp">HP</label><br/>
+                <input type="text" name="hp" id="hp"/>
+            </div>
 
             <input type="hidden" name="list" value="KCER0EmW3iEfr4763g6lQDkg">
             <input type="hidden" name="gdpr" id="gdpr" value="yes">

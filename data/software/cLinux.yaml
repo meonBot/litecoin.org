@@ -1,13 +1,13 @@
 id: linux
-version: Litecoin Core 0.21.3
+version: Litecoin Core 0.21.4
 
 img: linux
 isCompiled: 1
 isLinux: 1
 
-uri: https://download.litecoin.org/litecoin-0.21.3/linux/litecoin-0.21.3-x86_64-linux-gnu.tar.gz
-gpg: https://download.litecoin.org/litecoin-0.21.3/linux/
-arm: https://download.litecoin.org/litecoin-0.21.3/linux/litecoin-0.21.3-arm-linux-gnueabihf.tar.gz
-aarch64: https://download.litecoin.org/litecoin-0.21.3/linux/litecoin-0.21.3-aarch64-linux-gnu.tar.gz
-bit64: https://download.litecoin.org/litecoin-0.21.3/linux/litecoin-0.21.3-x86_64-linux-gnu.tar.gz
-riscv: https://download.litecoin.org/litecoin-0.21.3/linux/litecoin-0.21.3-riscv64-linux-gnu.tar.gz
+uri: https://download.litecoin.org/litecoin-0.21.4/linux/litecoin-0.21.4-x86_64-linux-gnu.tar.gz
+gpg: https://download.litecoin.org/litecoin-0.21.4/linux/
+arm: https://download.litecoin.org/litecoin-0.21.4/linux/litecoin-0.21.4-arm-linux-gnueabihf.tar.gz
+aarch64: https://download.litecoin.org/litecoin-0.21.4/linux/litecoin-0.21.4-aarch64-linux-gnu.tar.gz
+bit64: https://download.litecoin.org/litecoin-0.21.4/linux/litecoin-0.21.4-x86_64-linux-gnu.tar.gz
+riscv: https://download.litecoin.org/litecoin-0.21.4/linux/litecoin-0.21.4-riscv64-linux-gnu.tar.gz

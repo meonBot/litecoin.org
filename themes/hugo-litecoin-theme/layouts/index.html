@@ -4,28 +4,6 @@
         {{ partial "head.html" . }}
     </head>
     <body id="page-top" class="index">
-        <!-- LITECOIN SUMMIT MODAL -->
-        <div id="summitModal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <div class="svg-container">
-                    <img
-                        src="/img/summit-logo.svg"
-                        alt="Litecoin Summit logo"
-                    />
-                </div>
-                <p class="summit-text">MAY 29-30 | LAS VEGAS, NEVADA</p>
-                <div class="button-container">
-                    <a
-                        href="https://litecoin.com/summit-2025"
-                        target="_blank"
-                        class="modal-button"
-                        >Get Your Tickets</a
-                    >
-                </div>
-            </div>
-        </div>
-
         {{ partial "nav.html" . }} {{ partial "hero.html" . }} {{ if
         .Site.Params.about.enable }} {{ partial "about.html" . }} {{ end }} {{
         if .Site.Params.download.enable }} {{ partial "download.html" . }} {{

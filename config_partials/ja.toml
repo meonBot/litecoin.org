@@ -25,7 +25,7 @@
       url = "https://litecointalk.io/"
       name = "Forum"
       weight = 10
-    
+
     [[Languages.ja.menu.postpend]]
       url = "https://litecoin.net"
       name = "Foundation"
@@ -81,7 +81,7 @@
     windows = "Windows用"
     mac = "Mac OS X用"
     linux = "Linux用"
-    android = "Litewallet - Android用"
+    android = "Nexus Wallet - Android用"
     electrum = "Electrum Litecoin"
 
   # Contact section

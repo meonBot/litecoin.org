@@ -81,7 +81,7 @@
     windows = "za Windows"
     mac = "za Mac OS X"
     linux = "za Linux"
-    android = "Litewallet za Android"
+    android = "Nexus Wallet za Android"
     electrum = "Electrum Litecoin"
 
   # Contact section

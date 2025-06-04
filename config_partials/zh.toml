@@ -81,7 +81,7 @@
     windows = "供Windows使用"
     mac = "供Mac OS X使用"
     linux = "供GNU/Linux使用"
-    android = "Litewallet版本的Android"
+    android = "Nexus Wallet版本的Android"
     electrum = "Electrum Litecoin"
 
   # Contact section

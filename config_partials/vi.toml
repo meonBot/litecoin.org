@@ -81,7 +81,7 @@
     windows = "dành cho Windows"
     mac = "dành cho Mac OS X"
     linux = "dành cho Linux"
-    android = "Litewallet cho Android"
+    android = "Nexus Wallet cho Android"
     electrum = "Electrum Litecoin"
 
   # Contact section

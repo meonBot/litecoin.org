@@ -81,7 +81,7 @@
     windows = "Windows için"
     mac = "Mac OS X için"
     linux = "Linux için"
-    android = "Android için Litewallet"
+    android = "Android için Nexus Wallet"
     electrum = "Electrum Litecoin"
 
   # Contact section

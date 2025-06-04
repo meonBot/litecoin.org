@@ -81,7 +81,7 @@
     windows = "για Windows"
     mac = "για Mac OS X"
     linux = "για Linux"
-    android = "Litewallet για Android"
+    android = "Nexus Wallet για Android"
     electrum = "Electrum Litecoin"
 
   # Contact section

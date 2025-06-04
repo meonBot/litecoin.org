@@ -81,7 +81,7 @@
     windows = "MS Windows"
     mac = "Mac OS X"
     linux = "Linux"
-    android = "Litewallet Android'ile"
+    android = "Nexus Wallet Android'ile"
     electrum = "Electrum Litecoin"
 
   # Contact section

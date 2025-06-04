@@ -10,7 +10,7 @@
     # title = "The Cryptocurrency For Payments"
     # subtitle = "Based on Blockchain Technology"
    otherversions = "Другие версии"
-   buylitecoin = "Купить Litecoin" 
+   buylitecoin = "Купить Litecoin"
 
   # Navigation
   [Languages.ru.navigation]
@@ -81,7 +81,7 @@
     windows = "для Windows"
     mac = "для Mac OS X"
     linux = "для Linux"
-    android = "Litewallet для Android"
+    android = "Nexus Wallet для Android"
     electrum = "Electrum Litecoin"
 
   # Contact section

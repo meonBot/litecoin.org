@@ -27,7 +27,7 @@
       weight = 10
 
     [[Languages.tr.menu.postpend]]
-      url = "https://litecoin.net"
+      url = "https://litecoin.com"
       name = "Kuruluş"
       weight = 10
 

@@ -27,7 +27,7 @@
       weight = 10
 
     [[Languages.de.menu.postpend]]
-      url = "https://litecoin.net"
+      url = "https://litecoin.com"
       name = "Foundation"
       weight = 10
 

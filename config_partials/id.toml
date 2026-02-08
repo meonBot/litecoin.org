@@ -27,7 +27,7 @@
       weight = 10
 
     [[Languages.id.menu.postpend]]
-      url = "https://litecoin.net"
+      url = "https://litecoin.com"
       name = "Lembaga"
       weight = 10
 

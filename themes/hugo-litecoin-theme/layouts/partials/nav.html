@@ -1,78 +1,97 @@
 {{ "<!-- Navigation -->" | safeHTML }}
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
-    <div class="navbar-header page-scroll">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand page-scroll " href="#page-top">
-        <img src="/img/litecoin.svg" class="navbar-logo" alt="litecoin logo"/>
-        <span class="navbar-title">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</span>
-      </a>
+    <div class="container">
+        {{ "<!-- Brand and toggle get grouped for better mobile display -->" |
+        safeHTML }}
+        <div class="navbar-header page-scroll">
+            <button
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1"
+            >
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">
+                <img
+                    src="/img/litecoin.png"
+                    class="navbar-logo"
+                    alt="litecoin logo"
+                />
+                <span class="navbar-title"
+                    >{{ with .Site.Params.navigation.brand }}{{ . | markdownify
+                    }}{{ end }}</span
+                >
+            </a>
+        </div>
+
+        <div
+            class="collapse navbar-collapse relative"
+            id="bs-example-navbar-collapse-1"
+        >
+            {{ "<!-- Collect the nav links, forms, and other content for toggling -->"
+            | safeHTML }} {{ if .IsTranslated }}
+
+            <button
+                type="button"
+                class="btn btn-default dropdown-toggle"
+                data-toggle="dropdown"
+            >
+                {{ .Site.Params.lang }} <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                {{ range sort .Translations }}
+                <li>
+                    <a href="{{ .Permalink }}"
+                        >{{ .Site.Params.lang }}{{ if .IsPage }} ({{ i18n
+                        "wordCount" . }}){{ end }}</a
+                    >
+                </li>
+                {{ end}}
+            </ul>
+            {{ end }}
+
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+
+                {{ range .Site.Menus.prepend }}
+                <li>
+                    <a href="{{ .URL }}">{{ .Name | markdownify }}</a>
+                </li>
+                {{ end }} {{ if .Site.Params.about.enable }}
+                <li>
+                    <a class="page-scroll" href="#about"
+                        >{{ with .Site.Params.navigation.about }}{{ . |
+                        markdownify }}{{ end }}</a
+                    >
+                </li>
+                {{ end }} {{ if .Site.Params.download.enable }}
+                <li>
+                    <a class="page-scroll" href="#download"
+                        >{{ with .Site.Params.navigation.download }}{{ . |
+                        markdownify }}{{ end }}</a
+                    >
+                </li>
+                {{ end }} {{ if .Site.Params.contact.enable }}
+                <li>
+                    <a class="page-scroll" href="#contact"
+                        >{{ with .Site.Params.navigation.contact }}{{ . |
+                        markdownify }}{{ end }}</a
+                    >
+                </li>
+                {{ end }} {{ range .Site.Menus.postpend }}
+                <li>
+                    <a href="{{ .URL }}">{{ .Name | markdownify }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ "<!-- /.navbar-collapse -->" | safeHTML }}
     </div>
-
-    <div class="collapse navbar-collapse relative" id="bs-example-navbar-collapse-1">
-      {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
-      {{ if .IsTranslated }}
-
-      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" >
-      {{ .Site.Params.lang }} <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu">
-          {{ range sort .Translations }}
-          <li>
-              <a href="{{ .Permalink }}">{{ .Site.Params.lang }}{{ if .IsPage }} ({{ i18n "wordCount" . }}){{ end }}</a>
-          </li>
-          {{ end}}
-      </ul>
-      {{ end }}
-
-      <ul class="nav navbar-nav navbar-right">
-        <li class="hidden">
-          <a href="#page-top"></a>
-        </li>
-
-        {{ range .Site.Menus.prepend }}
-          <li>
-            <a href="{{ .URL }}">{{ .Name | markdownify }}</a>
-          </li>
-        {{ end }}
-
-        {{ if .Site.Params.about.enable }}
-          <li>
-            <a class="page-scroll" href="#about">{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</a>
-          </li>
-        {{ end }}
-
-        {{ if .Site.Params.download.enable }}
-          <li>
-            <a class="page-scroll" href="#download">{{ with .Site.Params.navigation.download }}{{ . | markdownify }}{{ end }}</a>
-          </li>
-        {{ end }}
-
-        {{ if .Site.Params.contact.enable }}
-          <li>
-            <a class="page-scroll" href="#contact">{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</a>
-          </li>
-        {{ end }}
-
-        {{ range .Site.Menus.postpend }}
-          <li>
-            <a href="{{ .URL }}">{{ .Name | markdownify }}</a>
-          </li>
-        {{ end }}
-      </ul>
-
-
-
-    </div>
-    {{ "<!-- /.navbar-collapse -->" | safeHTML }}
-  </div>
-  {{ "<!-- /.container-fluid -->" | safeHTML }}
-
-
+    {{ "<!-- /.container-fluid -->" | safeHTML }}
 </nav>
